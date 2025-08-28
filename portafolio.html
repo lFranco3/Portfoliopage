@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pPortafolio Website</title>
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npc/swiper-bundle.min.css">
+    <!-- CODIGO CSS -->
+    <link rel="stylesheet" href="portafolio.css">
+</head>
+<body>
+<!-- Header -->
+ <header class="header" id="header">
+    <nav class="nav container">
+        <div class="nav__menu" id="nav-menu"></div>
+            <ul class="nav__list">
+                <li>
+                    <a href="#home" class="nav__link active-link">Hola</a>
+                </li>
+
+                <li>
+                    <a href="#services" class="nav__link">Servicios</a>
+                </li>
+
+                <li>
+                    <a href="#resume" class="nav__link">Resumen</a>
+                </li>
+
+                <li>
+                    <a href="#portfolio" class="nav__link">Portafolio</a>
+                </li>
+
+                 <li>
+                    <a href="#contact" class="nav__link">Contacto</a>
+                </li>
+            </ul>
+
+            <div class="nav__close" id="nav-close"><i class="ri-close-large-line"></i>
+            </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle"><i class="ri-menu-line"></i>
+        </div>
+     </nav>
+ </header>
+
+    <!-- MAIN -->
+     <main class="main">
+        <!-- Home -->
+         <section class="home" id="home">
+            <div class="home__cotainer container grid">
+                <img src="fotoportafolio.jpeg" alt="" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__name">Jean Franco Cefala</h1>
+                    <p class="home__work">Estudiante universitario en programacion</p>
+                    <dl class="home__list">
+                    <dt>Edad:</dt>
+                    <dd>19</dd>
+                    <dt>Telefono:</dt>
+                    <dd>0412-7744964</dd>
+                    <dt>Gmail:</dt>
+                    <dd>jcefala95@gmail.com</dd>
+                    <dt>Direccion:</dt>
+                    <dd>My house</dd>
+                    </dl>
+                    <div class="home__socials">
+                    <a href="https://github.com/" target="_blank" class="home__social-link"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link"><i class="ri-facebook-box-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- HELLO  description-->
+         <section class="hello section container">
+            <h2 class="section__title">Hola_</h2>
+            <p class="hello__teails text-lg">Estudiante universitario en segundo semestre de computacion
+            </p>
+            <a href="link del cv mio" class="button button--flex"><i class="ri-download-line"></i>Descargar CV</a>
+         </section>
+
+         <!-- Services -->
+          <section class="Services section container" id="Services">
+            <h2 class="section__title">Services_</h2>
+
+            <div class="services__container grid">
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="HTML5.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">WEB DESIGN</h3>
+                    <p class="services__detail">Soy un diseñador web experto</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="LAPTOP.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">WEB DEVELOPMENT</h3>
+                    <p class="services__detail">Soy un desarrollador web experto</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="CREATIVE.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">CREATIVE DESIGN</h3>
+                    <p class="services__detail">Soy un diseñador creativo experto</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="CELLPHONE.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">RESPONSIVE DESING</h3>
+                    <p class="services__detail">Soy un diseñador responsivo experto</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="IDENTITY.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">BRANDING IDENTITY</h3>
+                    <p class="services__detail">Identidad Branding</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="SUPPORT.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">24/7 SUPPORT</h3>
+                    <p class="services__detail">Soporte 24/7</p>
+                </div>
+            </div>
+          </section>
+          <!-- Resume -->
+           <section class="section container" id="resume">
+            <h2 class="section__title">Resumen_</h2>
+            <div class="resume__container grid">
+
+                <div class="resume data">
+                    <h3 class="resume__title text-sm">EDUCACION</h3>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">UNIVERSIDAD LUZ</h3>
+                        <p class="resume__date text-sm">2024-2025</p>
+                        <p class="resume__description text-lg">Bachiller en computacion</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Facultad Experimental de Ciencias</h3>
+                        <p class="resume__date text-sm">2024-2025</p>
+                        <p class="resume__description text-lg">Estudiante excelente que actualmente cursa el 2do semestre</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Escuela la santisima trinidad</h3>
+                        <p class="resume__date text-sm">2020-2023</p>
+                        <p class="resume__description text-lg">Estudiante con excelentes calificaciones y varios reconocimientos</p>
+                    </div>
+                </div>
+
+                <div class="resume data">
+                    <h3 class="resume__title text-sm">EMPLEO</h3>
+
+                <div class="resume__item">
+                    <h3 class="resume__subtitle text-sm">no conosco la pala</h3>
+                    <p class="resume__date text-sm">2024-2025</p>
+                    <p class="resume__description text-lg">necesitado de chamba</p>
+                </div>
+
+                <div class="resume__item">
+                    <h3 class="resume__subtitle text-sm">UNIVERSIDAD TECNICA</h3>
+                    <p class="resume__date text-sm">2024-2025</p>
+                    <p class="resume__description text-lg">info de chamba</p>
+                </div>
+
+                <div class="resume__item">
+                    <h3 class="resume__subtitle text-sm">ESTUDIOS "NOMBRE DEL ESTUDIO"</h3>
+                    <p class="resume__date text-sm">2020-2023</p>
+                    <p class="resume__description text-lg">Info de chamba</p>
+                </div>
+                </div>
+            </div>
+           </section>
+           <!-- Skills -->
+            <section class="section container">
+                <h2 class="section__title">Habilidades_</h2>
+
+                <div class="skills__container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">INTERFAZ</h3>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                            <p class="skills__name text-sm">HTML</p>
+                            <span class="skills__number text-sm">90%</span>
+                            </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style= "width: 90%"></span>
+                        </div>
+                    </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                            <p class="skills__name text-sm">CSS</p>
+                            <span class="skills__number text-sm">80%</span>
+                            </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:80% "></span>
+                        </div>
+                    </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                            <p class="skills__name text-sm">JavaScript</p>
+                            <span class="skills__number text-sm">60%</span>
+                            </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:60% "></span>
+                        </div>
+                    </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                            <p class="skills__name text-sm">React</p>
+                            <span class="skills__number text-sm">85%</span>
+                            </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:85% "></span>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">BACKEND</h3>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                            <p class="skills__name text-sm">PHP</p>
+                            <span class="skills__number text-sm">90%</span>
+                            </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:90% "></span>
+                        </div>
+                    </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                            <p class="skills__name text-sm">NODE JS</p>
+                            <span class="skills__number text-sm">80%</span>
+                            </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:80% "></span>
+                        </div>
+                    </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                            <p class="skills__name text-sm">Python</p>
+                            <span class="skills__number text-sm">60%</span>
+                            </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:60% "></span>
+                        </div>
+                    </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                            <p class="skills__name text-sm">MYsql</p>
+                            <span class="skills__number text-sm">85%</span>
+                            </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width: 85%"></span>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+            </section>
+            <!-- Projects -->
+             <section class="work section container" id="portfolio">
+                <h2 class="section__title">Trabajos_</h2>
+
+                <div class="project__categories">
+                    <button class="category__btn text-xs active-work"data-filter="all">ALL</button>
+                    <button class="category__btn text-xs"data-filter=".app">MOBILE APPS</button>
+                    <button class="category__btn text-xs"data-filter=".web">WEB-SITES</button>
+                    <button class="category__btn text-xs"data-filter=".landing">LANDING PAGES</button>
+                </div>
+
+                <div class="projects__container grid">
+                    <div class="project__item grid mix app">
+                        <img src="" alt="" class="project__img">
+                        <div class="project__data">
+                            <h3 class="project__title text-lg">Titulo del projecto</h3>
+                            <p class="project__description">Descripcion del projecto</p>
+                            <h4 class="project__stack text-xs">USED STACK:</h4>
+                            <ul class="tags text-sm">
+                                <li>html5</li>
+                                <li>css3</li>
+                                <li>javaScrip</li>
+                                <li>BEM</li>
+                                <li>bower</li>
+                                <li>grunt</li>
+                            </ul>
+                            <a href="" class="project_link text-sm">www.linkdelprojecto.com</a>
+                        </div>
+                    </div>
+
+                    <div class="project__item grid mix web">
+                        <img src="" alt="" class="project__img">
+                        <div class="project__data">
+                            <h3 class="project__title text-lg">Titulo del projecto2</h3>
+                            <p class="project__description">Descripcion del projecto</p>
+                            <h4 class="project__stack text-xs">USED STACK:</h4>
+                            <ul class="tags text-sm">
+                                <li>html5</li>
+                                <li>css3</li>
+                                <li>javaScrip</li>
+                                <li>BEM</li>
+                                <li>bower</li>
+                                <li>grunt</li>
+                            </ul>
+                            <a href="" class="project_link text-sm">www.linkdelprojecto.com</a>
+                        </div>
+                    </div>
+
+                    <div class="project__item grid mix landing">
+                        <img src="" alt="" class="project__img">
+                        <div class="project__data">
+                            <h3 class="project__title text-lg">Titulo del projecto3</h3>
+                            <p class="project__description">Descripcion del projecto3</p>
+                            <h4 class="project__stack text-xs">USED STACK:</h4>
+                            <ul class="tags text-sm">
+                                <li>html5</li>
+                                <li>css3</li>
+                                <li>javaScrip</li>
+                                <li>BEM</li>
+                                <li>bower</li>
+                                <li>grunt</li>
+                            </ul>
+                            <a href="" class="project_link text-sm">www.linkdelprojecto.com</a>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+            <!-- Contact -->
+             <section class="contact section" id="contact">
+                <div class="contact__content container">
+                    <h2 class="section__title">Get in touch_</h2>
+
+                    <div class="contact__container grid">
+                        <div class="contact__info">
+                            <dl class="contact__list">
+                                <dt>Telefono:</dt>
+                                <dd>0412-7744964</dd>
+                                <dt>Gmail:</dt>
+                                <dd>jcefala95@gmail.com</dd>
+                            </dl>
+
+                            <ul class="contact__socials">
+                                <li>
+                                    <a href="https://www.facebook.com/" class="contact__social-link">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="" class="contact__social-link">Github</a>
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="contact__form">
+                        <p class="contact__form-title">O enviame un correo aqui_</p>
+
+                        <form action="" id="contact-form">
+                            <div class="contact__input-div">
+                                <input 
+                                type="text" 
+                                name="name"
+                                placeholder="Tu nombre" 
+                                class="contact__input" 
+                                id="contact-name">
+                            </div>
+
+                              <div class="contact__input-div">
+                                <input 
+                                type="email" 
+                                name="email"
+                                placeholder="Tu gmail" 
+                                class="contact__input" 
+                                id="contact-email">
+                            </div>
+
+                            <div class="contact__input-div">
+                                <textarea 
+                                name="message"
+                                placeholder="Escribe el mensaje aqui" 
+                                class="contact__input textarea" 
+                                id="message" 
+                                cols="30" 
+                                rows="10"
+                                ></textarea>
+                            </div>
+
+
+                            <p class="contact__message text-sm" id="contact-message">Escribe todos los campos</p>
+
+                            <button type="submit" class="button contact__button">Enviar</button>
+                        </form>
+
+                    <p class="footer__copy">
+                        &copy; 2025 Jean Franco. Todos los derechos reservados
+                    </p>
+                    </div>
+                    </div>
+                </div>
+             </section>
+
+     </main>
+    <!-- Mixitup -->
+     <script src="mixitup.min.js"></script>
+
+     <!-- Email JS -->
+     <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+    <!-- CODIGO JS -->
+    <script src="C:\Users\PC\Desktop\Curso_de_programacion-main\Jean_Franco_Programacion1\HTML y CSS\portafolio.js"></script>
+</body>
+</html>
